@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Century Web</title>
+        <meta name="author" content="Gabriel Libório e Celso Werner">
+        <meta name="description" content="Prova M2 - Web Design - Sistemas Para Internet - UNIVALI.">
+        <link rel="shortcut icon" href="./images/favicon.png" />
+        <link rel='stylesheet' type='text/css' media='screen' href='./css/reset.css' />
+        <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css' />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    </head>
+    <body>
+<!-- div da tela inteira -->
+<div class="total">       
+<!-- div do menu, ocupa a area superior da tela -->
+<div class="header">
+            <div class="menu-left">
+                <div class="menu-img-twitch">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitch" class="svg-inline--fa fa-twitch fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z"></path></svg>
+                </div>
+                <ul>
+                    <li><a href="#">Procurar</a></li>
+                    <li><a href="#">Esports</a></li>
+                    <li><a href="#">Música</a></li>
+                    <li><button class="dot-btn"><i class="fas fa-ellipsis-h"></i></button></li>
+                </ul>
+            </div>
+            <div class="menu-right">
+                <div class="right-side">
+                    <input type="text" placeholder="Buscar" />
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <button class="login-btn">Entrar</button>
+                    <button class="register-btn">Cadastrar-se</button>
+                    <button class="user-btn"><img src="./images/user.png"></button>
+                </div>
+            </div>
+        </div>
+        <div class="left-content">
+            <div class="top-content">
+                <h2>Participe da comunidade <br><span>Twitch</span> !</h2>
+                <p>Descubra as melhores <br>transmissões ao vivo em <br>qualquer lugar.</p>
+                <button class="register-btn">Cadastrar-se</button>
+            </div>
+            <div class="bottom-content">
+                <img src="./images/quadradinho.jpg">
+                <h2>Cadastre-se para aproveitar o melhor de <span>BeyondTheS</span>...</h2>
+                <p>Converse com outros fãs</p>
+                <p>Capture seus momentos <br>favoritos</p>
+                <p>Siga para receber <br>notificações quando o canal <br>entrar ao vivo</p>
+                <button class="register-btn">Cadastrar-se</button>
+            </div>
+        </div>
+        <div class="footer"></div>
+
+
+<!-- div do menu, ocupa a area direita da tela -->
+<div class="menudireita">
+       <!-- div do menu, ocupa interna do menu direito em cima -->
+	<div class="menudireitadentrocima">
+        <div class="texto">Canais ao vivo que achamos que voce vai gostar</div>
+        <!-- as 3 imagens de video -->
+	<div class="filmes">
+        <div class="film"><img src="images\1.jpg">
+            <div class="quadradinho"><img class="fotoquadradinho" src="images\quadradinho.jpg"></div>
+            <div class="texto0">RERUN: Quincy Crew vc simply TOOB...
+            </div>
+            <div class="texto1">BeyondTheSummit
+            </div>
+            <div class="texto2">Dota 2
+            </div>
+            <div class="texto3">
+                <button>Inglês</button>
+                <button>Sports</button>
+                <button>Competitivo</button>
+            </div>
+        
+        </div>
+    </div>
+	<div class="filmes">
+        <div class="film"><img src="images\2.jpg">
+            <div class="quadradinho"><img class="fotoquadradinho" src="images\dream.png"></div>
+            <div class="texto0">LIVE: No Bounty Hunter vs. Level UP - ...
+            </div>
+            <div class="texto1">DreamLeague
+            </div>
+            <div class="texto2">Dota 2
+            </div>
+            <div class="texto3">
+                <button>Esports</button>
+                <button>Inglês</button>
+            </div>
+        </div>
+    </div>
+    <div class="filmes">
+        <div class="film"><img src="images\3.jpg">
+            <div class="quadradinho"><img class="fotoquadradinho" src="images\Gorgc.jpeg"></div>
+            <div class="texto0">9k by june or baid - day 5
+            </div>
+            <div class="texto1">Gorgc
+            </div>
+            <div class="texto2">Dota 2
+            </div>
+            <div class="texto3">
+                <button>Inglês</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- div do menu, ocupa interna do menu direito em baixo -->
+
+<div class="menudireitadentrobaixo">
+    <div class="texto"><span>Categorias</span> que achamos que voce vai gostar</div>
+    <!-- as 6 imagens de propaganda dota, justchating,counterstrike -->
+	<div class="propagandas">
+    <div class="prop">  <img src="images\Dota2.jpg">
+        <div class="texto4">Dota 2
+        </div>
+        <div class="texto5">117,4 mil espectadores
+        </div>
+        <div class="texto6">
+            <button>MOBA</button>
+            <button>Ação</button>
+        </div></div></div>
+	<div class="propagandas">
+        <div class="prop"> <img src="images\JustChatting.jpg">
+            <div class="texto4">Só na conversa 
+            </div>
+            <div class="texto5">545,4 mil espectadores
+            </div>
+            <div class="texto6">
+                <button>Vida Real</button>
+            </div></div></div>
+	<div class="propagandas">
+        <div class="prop"> <img src="images\CounterStrike.jpg">
+            <div class="texto4">Counter-Strike:Glob...
+            </div>
+            <div class="texto5">183 mil espectadores
+            </div>
+            <div class="texto6">
+                <button>FPS</button>
+                <button>Jogo de tiro</button>
+            </div></div></div>
+	<div class="propagandas">
+        <div class="prop"> <img src="images\valorant.jpg">
+            <div class="texto4">VALORANT
+            </div>
+            <div class="texto5">167,2 mil espectadores
+            </div>
+            <div class="texto6">
+                <button>Jogo de tiro</button>
+                <button>FPS</button>
+            </div></div></div>
+	<div class="propagandas">
+        <div class="prop"> <img src="images\warzone.jpg">
+            <div class="texto4">Call od Duty:Warzone
+            </div>
+            <div class="texto5">143 mil espectadores
+            </div>
+            <div class="texto6">
+                <button>FPS</button>
+                <button>Jogo de tiro</button>
+                
+            </div></div></div>
+	<div class="propagandas">
+        <div class="prop"><img src="images\HearthStone.jpg">
+            <div class="texto4">HearthStone
+            </div>
+            <div class="texto5">64,2 mil espectadores
+            </div>
+            <div class="texto6sx"><button>Jogo de cartas e tabuleiro</button>
+            </div></div></div>
+</div>
+
+</div>
+<!-- barra roxa inferior -->
+<div class="footer"></div>  
+</div>
+
+</body>
+</html>
